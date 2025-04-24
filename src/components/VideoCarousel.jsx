@@ -215,8 +215,8 @@ const VideoCarousel = () => {
           </div>
         ))}
       </div>
-      /*** Video Control Button and Progress Control Bar **/
-      <div className="relative flex-center mt-10">
+
+      <div className="relative flex-center mt-10" id="video-control-bar">
         <button className="control-btn">
           <img
             src={isLastVideo ? replayImg : !isPlaying ? playImg : pauseImg}

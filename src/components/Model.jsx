@@ -111,7 +111,7 @@ const Model = () => {
             </Canvas>
           </div>
 
-          <div className="mx-auto w-full">
+          <div className="mx-auto w-full" id="model-control-bar">
             <p className="text-md font-light text-center mb-5">{model.title}</p>
 
             <div className="flex-center">
