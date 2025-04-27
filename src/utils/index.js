@@ -11,6 +11,7 @@ import highlightFourthmv from "/assets/videos/frame5.mp4";
 import exploremv from "/assets/videos/explore.mp4";
 import aimv from "/assets/videos/apple-intelligence.mp4";
 import framemv from "/assets/videos/frame.mp4";
+import videoFeaturesmv from "/assets/videos/video-features.mp4";
 
 import apple from "/assets/images/apple.svg";
 import search from "/assets/images/search.svg";
@@ -43,6 +44,7 @@ export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const appleIntelligenceVideo = aimv;
 export const frameVideo = framemv;
+export const videoFeatures = videoFeaturesmv;
 
 export const appleImg = apple;
 export const searchImg = search;

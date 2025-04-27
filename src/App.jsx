@@ -9,6 +9,8 @@ import Features from "./components/Features";
 import NewFeatures from "./components/NewFeatures";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
+import NewFeaturesText from "./components/NewFeaturesText";
+import CameraFeature from "./components/CameraFeature";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
       <Model />
       <Features />
       <NewFeatures />
+      <NewFeaturesText />
+      <CameraFeature />
       <HowItWorks />
       <Footer />
     </main>
