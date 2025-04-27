@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import React, { useRef } from "react";
 import { animateWithGsap } from "../utils/animations";
-import { exploreVideo } from "../utils";
+import { explore1Img, explore2Img, exploreVideo } from "../utils";
 import gsap from "gsap";
 
 const Features = () => {
@@ -100,7 +100,32 @@ const Features = () => {
             </div>
 
             <div className="flex flex-col w-full relative">
-              {/* <div className="feature-video-container">
+              <div className="feature-text-container">
+                <div className="flex-1 flex-center m-4 lg:m-0">
+                  <p className="feature-text g_text">
+                    New display technology allows us to route display data under
+                    active pixels with no distortion, resulting in thinner
+                    borders for larger 6.3-inch and 6.9-inch{" "}
+                    <span className="text-white">
+                      Super Retina XDR displays{" "}
+                    </span>
+                    that feel great in your hand.
+                  </p>
+                </div>
+
+                <div className="flex-1 flex-center mx-4 lg:mx-0 mb-4">
+                  <p className="feature-text g_text">
+                    iPhone 16 Pro is splash, water and dust resistant.3 It also
+                    has our latest-generation Ceramic Shield material that’s{" "}
+                    <span className="text-white">
+                      two times tougher than any smart­phone glass.{" "}
+                    </span>
+                    Talk about durable.
+                  </p>
+                </div>
+              </div>
+
+              <div className="feature-video-container">
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img
                     src={explore1Img}
@@ -114,31 +139,6 @@ const Features = () => {
                     alt="titanium 2"
                     className="feature-video g_grow"
                   />
-                </div>
-              </div> */}
-
-              <div className="feature-text-container sm:p-10">
-                <div className="flex-1 flex-center">
-                  <p className="feature-text g_text">
-                    New display technology allows us to route display data under
-                    active pixels with no distortion, resulting in thinner
-                    borders for larger 6.3-inch and 6.9-inch{" "}
-                    <span className="text-white">
-                      Super Retina XDR displays
-                    </span>
-                    that feel great in your hand.
-                  </p>
-                </div>
-
-                <div className="flex-1 flex-center">
-                  <p className="feature-text g_text">
-                    iPhone 16 Pro is splash, water and dust resistant.3 It also
-                    has our latest-generation Ceramic Shield material that’s{" "}
-                    <span className="text-white">
-                      two times tougher than any smart­phone glass.
-                    </span>
-                    Talk about durable.
-                  </p>
                 </div>
               </div>
             </div>

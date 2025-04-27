@@ -8,7 +8,6 @@ import {
   highlightSecondVideo,
   highlightThirdVideo,
   searchImg,
-  whiteImg,
   yellowImg,
 } from "../utils";
 
@@ -78,18 +77,6 @@ export const models = [
     title: "iPhone 16 Pro in Natural Titanium",
     color: ["#C2BCB2", "#ffe7b9", "#6f6c64"],
     img: yellowImg,
-  },
-  {
-    id: 2,
-    title: "iPhone 16 Pro in Desert Titanium",
-    color: ["#BFA48F", "#6395ff", "#21242e"],
-    img: blueImg,
-  },
-  {
-    id: 3,
-    title: "iPhone 16 Pro in White Titanium",
-    color: ["#F2F1ED", "#ffffff", "#C9C8C2"],
-    img: whiteImg,
   },
   {
     id: 4,

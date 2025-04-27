@@ -109,7 +109,7 @@ const CameraFeature = () => {
           />
           <div
             ref={textRef}
-            className="absolute text-center text-white text-xl font-bold opacity-100 pointer-events-none px-4 pt-16"
+            className="absolute text-center text-white text-xs md:text-xl font-bold opacity-100 pointer-events-none px-4 pt-16"
           >
             4K 120 fps Dolby Vision.
             <br />
@@ -124,7 +124,7 @@ const CameraFeature = () => {
           Vision
         </p>
 
-        <div className="flex flex-col items-center mt-8">
+        <div className="flex flex-col items-center mt-8 mx-4">
           <p className="camera-feature-text g_fadeIn2">
             iPhone 16 Pro takes video capture to a whole new level with{" "}
             <span className="text-white">4K 120 fps Dolby Vision </span>— our

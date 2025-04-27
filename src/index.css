@@ -95,6 +95,7 @@ canvas {
 
   .feature-text {
     @apply text-gray max-w-md text-xl md:text-2xl  font-semibold opacity-0 translate-y-[100px];
+    word-wrap: break-word;
   }
 
   .camera-feature-text {
